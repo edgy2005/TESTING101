@@ -3,9 +3,9 @@
 #
 #                                               Passed By:
 #
-#                                           Sir Andrean Reyes
+#                                            Sir Andrean Reyes
 #                                            Jericho Mariñas
-#                                             Renzo Rondina
+#                                            Renzo John Rondina
 #                                            Edrich Tolentino
 #
 #   =====================================================================================================================
