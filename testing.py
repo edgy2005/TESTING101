@@ -18,6 +18,8 @@ from PIL import Image, ImageTk
 from tkinter import messagebox
 import sqlite3
 
+# ------------ CHECK LOGIN -----------------
+
 def check_login():
     username = Uname.get()
     password = Pword.get()
@@ -52,6 +54,8 @@ def save_data_entry():
     # Placeholder function to save form data
     # Add logic to save the form data to the database or a file
     messagebox.showinfo("Save", "Data saved successfully!")
+
+# ------------------ PAYROLL -----------------------
 
 def payroll():
 
