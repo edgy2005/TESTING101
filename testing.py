@@ -4,7 +4,7 @@
 #                                               Passed By:
 #
 #                                           Sir Andrean Reyes
-#                                            Jericho Marinas
+#                                            Jericho Mariñas
 #                                             Renzo Rondina
 #                                            Edrich Tolentino
 #
@@ -759,6 +759,8 @@ def payroll():
     Proll.geometry("850x800")
     Proll.mainloop()
 
+    # ---------------------- REGISTRATION FORM-------------------------------------
+
 def regis_form():
     def save_data_entry():
         FirstName = get_FirstName.get()
@@ -983,6 +985,8 @@ def regis_form():
     Cancel = tk.Button(mainframe, text="Cancel", width=10, command=form_window.destroy)
     Cancel.grid(row=26, column=0, padx=(115, 0), pady=5, sticky='w')
 
+     # --------------------- ACCOUNT USER ---------------------------
+
 def Account_User():
     def clear_inputs():
         get_first_name.delete(0, END)
@@ -997,6 +1001,8 @@ def Account_User():
         get_user_type.delete(0, END)
         get_user_status.delete(0, END)
         get_emp_num.delete(0, END)
+
+    # ------------------------- DATA ENTRIES ----------------------------------
 
     def save_data_entry():
         first_name = get_first_name.get()
@@ -1127,6 +1133,8 @@ def Account_User():
     Acc_User.geometry('1200x500')
     Acc_User.mainloop()
 
+# ------------------- HOMEPAGE IS FOR 'ADMIN' ----------------------
+
 def homepage():
     global window
     window = Tk()
@@ -1162,6 +1170,9 @@ def homepage():
     form_button3.place(x=20, y=190)
 
     window.mainloop()
+
+    # ------------------ HOMEPAGE 2 IS FOR 'ACCOUNTING' -------------------------
+
 def homepage2():
     global window
     window = Tk()
@@ -1191,6 +1202,9 @@ def homepage2():
     form_button2.place(x=130, y=130)
 
     window.mainloop()
+
+    # ----------------- HOMEPAGE 3 IS FOR 'HR STAFF' ----------------------
+
 def homepage3():
     global window
     window = Tk()
@@ -1219,9 +1233,13 @@ def homepage3():
     form_button = Button(MidFrame, width=50,text="REGISTRATION FORM", bg='#ede8f5', command=regis_form,height=5)
     form_button.place(x=130, y=130)
 
+    # --------------------- LOGOUT -------------------------------
+
 def logout():
     window.destroy()
     show_login_window()
+
+    # ------------------- LOGIN WINDOW -------------------------
 
 def show_login_window():
     global login_window, Uname, Pword
