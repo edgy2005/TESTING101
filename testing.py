@@ -1259,7 +1259,7 @@ def show_login_window():
     login_window = Tk()
     login_window.geometry('1920x1080')
     login_window.title("Login Page")
-    login_window.configure(bg='green')
+    login_window.configure(bg='red')
 
     Uname = StringVar()
     Pword = StringVar()
