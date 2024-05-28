@@ -11,10 +11,6 @@
 #   =====================================================================================================================
 
 
-#HELLO PHILIPPINES
-#hello
-#another comment
-
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
