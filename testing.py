@@ -11,7 +11,7 @@
 #   =====================================================================================================================
 
 #SIR ANDREAN REYES 2
-#JERICHO MARINAS
+# JERICHO 2
 
 import tkinter as tk
 from tkinter import ttk
