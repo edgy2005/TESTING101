@@ -11,8 +11,6 @@
 #   =====================================================================================================================
 
 
-#HELLO PHILIPPINES
-#HELLO SIR
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
@@ -21,7 +19,7 @@ from tkinter import messagebox
 import sqlite3
 
 # ------------ CHECK LOGIN -----------------
-# s i r a n d r e a n
+
 def check_login():
     username = Uname.get()
     password = Pword.get()
