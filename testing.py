@@ -4,14 +4,12 @@
 #                                               Passed By:
 #
 #                                            Sir Andrean Reyes
-#                                            Jericho Mariñas
+#                   jericho                         Jericho Mariñas
 #                                            Renzo John Rondina
 #                                            Edrich Tolentino
 #
 #   =====================================================================================================================
 
-#SIR ANDREAN REYES 2
-# JERICHO 2
 
 import tkinter as tk
 from tkinter import ttk
