@@ -4,7 +4,7 @@
 #                                               Passed By:
 #
 #                                            Sir Andrean Reyes
-#                   jericho                         Jericho Mariñas
+#                                            Jericho Mariñas
 #                                            Renzo John Rondina
 #                                            Edrich Tolentino
 #
