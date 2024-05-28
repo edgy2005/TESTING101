@@ -10,7 +10,7 @@
 #
 #   =====================================================================================================================
 
-#SIR ANDREAN REYES
+#SIR ANDREAN REYES 2
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
