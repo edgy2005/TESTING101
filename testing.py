@@ -18,7 +18,7 @@ from PIL import Image, ImageTk
 from tkinter import messagebox
 import sqlite3
 
-# ------------ CHECK LOGIN -----------------
+#         ------------ CHECK LOGIN -----------------
 
 def check_login():
     username = Uname.get()
@@ -55,7 +55,7 @@ def save_data_entry():
     # Add logic to save the form data to the database or a file
     messagebox.showinfo("Save", "Data saved successfully!")
 
-# ------------------ PAYROLL -----------------------
+#       ------------------ PAYROLL -----------------------
 
 def payroll():
 
@@ -147,6 +147,8 @@ def payroll():
     rhour2_var = StringVar()
     co2_var = StringVar()
 
+#   ------------------CALCULATE HONORARIUM----------------
+
     def calculate_Honorarium(*args):
         ratehour2_val_str = rhour2_var.get()
         cutoff2_val_str = co2_var.get()
@@ -192,6 +194,7 @@ def payroll():
     rhour3_var = StringVar()
     co3_var = StringVar()
 
+#-------------CALCULATE OTHER INCOME----------------
     def calculate_OtherIncome(*args):
         ratehour3_val_str = rhour3_var.get()
         cutoff3_val_str = co3_var.get()
@@ -388,6 +391,7 @@ def payroll():
     pgc = Entry(Pframe)
     pgc.place(x=550, y=380)
 
+# --------CALCULATE WITH HOLDING TAX-----------
     def calculateWithholdingTax():
         gross_income = float(gic.get())
         if gross_income <= 10417:
@@ -436,6 +440,8 @@ def payroll():
 
     dedsum = Label(Pframe, text="DEDUCTION SUMMARY: ", fg='black', bg='#d3d3d3', font=('Calibri', 15, 'bold')).place(
         x=415, y=590)
+
+#-------CALCULATE TOTAL DEDUCTION--------
 
     def calculate_total_deduction():
 
@@ -822,6 +828,7 @@ def regis_form():
     frame4.grid(row=15, column=0, rowspan=4, columnspan=4, padx=30, pady=(0, 0), sticky='w')
 
     # ----------------- FRAME 1 ------------------------------------------------
+    #-------------------IMAGE---------------------------------------------------
 
     image = Image.open("C:\\Users\\Sirandrean\\Downloads\\charitymae.jpg")
     image = image.resize((100, 100))
@@ -832,6 +839,8 @@ def regis_form():
 
     choose_file_button = tk.Button(frame, text="Choose File")
     choose_file_button.grid(row=3, column=0, padx=(0, 5), pady=5)
+
+    #-------------------LABEL AND TEXTBOX---------------------------------------------------
 
     #           -- First Name --
     FirstName = tk.Label(frame, text="First Name", bg='light grey')
