@@ -12,7 +12,7 @@
 
 
 #HELLO PHILIPPINES
-#hello mindanao
+#hello
 
 import tkinter as tk
 from tkinter import ttk
