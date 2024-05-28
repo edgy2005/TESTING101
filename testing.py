@@ -10,9 +10,8 @@
 #
 #   =====================================================================================================================
 
-#SIR ANDREAN REYES 2
+#SIR ANDREAN REYES
 #JERICHO
-
 import tkinter as tk
 from tkinter import ttk
 from tkinter import *
