@@ -1240,7 +1240,7 @@ def homepage3():
     MidFrame = Frame(window,width=600,height =280,bg='#96B4DD',highlightbackground="#7091E6",highlightthickness=2)
     MidFrame.place(x=480,y=200)
 
-    label = Label(MidFrame, text="Hello, HR!        ",fg='white',font=('Sans Serif',32,'bold'),bg='#96B4DD',pady=10)
+    label = Label(MidFrame, text="Hello, HR!",fg='white',font=('Sans Serif',32,'bold'),bg='#96B4DD',pady=10)
     label.place(x=130,y=1)
 
     form_button = Button(MidFrame, width=50,text="REGISTRATION FORM", bg='#ede8f5', command=regis_form,height=5)
@@ -1259,7 +1259,7 @@ def show_login_window():
     login_window = Tk()
     login_window.geometry('1920x1080')
     login_window.title("Login Page")
-    login_window.configure(bg='green')
+    login_window.configure(bg='red')
 
     Uname = StringVar()
     Pword = StringVar()
